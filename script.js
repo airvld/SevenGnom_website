@@ -1,5 +1,16 @@
 jQuery(document).ready(function() {
 
+var reviews = $('.forparents');
+ var reviewsTop = reviews.offset().top;
+ $(window).bind('scroll', function () {
+    var windowTop = $(this).scrollTop();
+    if (windowTop > reviewsTop) {
+      console.log('ok good');
+      $('.footer__map').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6371301c0668531d14ae6617a850f3858c2317282f848eb7aeb6b89615232d31&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>')
+      $('.footer__map2').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6371301c0668531d14ae6617a850f3858c2317282f848eb7aeb6b89615232d31&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>')
+      $(window).unbind('scroll');
+    }
+  });
 
   var btn = $('#button');
   $(window).scroll(function() {
@@ -34,16 +45,11 @@ jQuery(document).ready(function() {
   e.preventDefault();
 });
 
-  $('.model-btn').click(function (e) {
+  $('a.model-btn').click(function (e) {
     e.preventDefault();
     var destinationPopup = $(this).attr("href");
     $(destinationPopup).addClass('show');
-    $(destinationPopup + '.popup__close').click(function () {
-      $(destinationPopup).removeClass('show');
-      bootbox.hideAll();
-      location.reload();
-    });
-    $(destinationPopup + '.popup__overlay').click(function () {
+    $(destinationPopup + ' .popup__close').click(function () {
       $(destinationPopup).removeClass('show');
     });
   });
@@ -117,7 +123,6 @@ var $class_open = '.faq-answer';
       infinite: true,
       speed: 1200,
       slidesToShow: 1,
-      adaptiveHeight: true,
       focusOnSelect:true,
       accessibility:true,
       fade:true,

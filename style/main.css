@@ -10,6 +10,9 @@ body, html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+a.popup__close {
+    cursor: pointer;
+}
 body {
   font-size: 11pt;
   text-align: left;
@@ -335,6 +338,9 @@ h3.faq {
 a.contact {
   font-size: 12px;
 }
+.pphone {
+  padding-left: 24%;
+}
 nav {
   padding: 15px 10px;
   display: flex;
@@ -357,11 +363,21 @@ h4.name {
  padding-top: 3%;
   font-size: 16px;
   font-weight: 500;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  height: 60px;
+  vertical-align: middle;
+
+
 }
+a#phone1 {margin: 22%;}
 p.position {
    padding-top: 2%;
   font-weight: 100;
   font-size: 12px;
+  height: 50px;
+  text-align: center;
 }
 .people, div.team {
   display: flex;
@@ -371,8 +387,9 @@ p.position {
 }
 .face {
 
-  margin: 10%;
+  
   width: 150px;
+  height: 150px;
 }
 img.reply {
   width: 100%;
@@ -410,7 +427,7 @@ position: fixed;
 }
 .popup__body{
   position: relative;
-  width: 80%;
+  width: 50%;
   background: white;
   border-radius: 30px;
   padding: 4%;
@@ -533,9 +550,7 @@ display: none;
   padding-left: 2%;
   padding-right: 2%;
 }
-a.phone {
-  padding-left: 25%
-}
+
 
 .inputs {
   border-radius:30px;

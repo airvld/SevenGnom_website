@@ -3,22 +3,16 @@
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Детский сад "7 гномов"</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="img/fav.png">
+  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style/main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style/owl.carousel.min.css">
-  <link rel="stylesheet" href="style/owl.theme.default.min.css">
-  <link rel="stylesheet" href="style/owl.theme.green.min.css">
   <link rel="stylesheet" href="style/slick.css">
   <link rel="stylesheet" href="style/slick-theme.css">
-  <script src="script/ajaxable.min.js"></script>
-
- 
  </head>
  <body>
 <header>
@@ -29,12 +23,12 @@
         <ion-icon class="reorder-four-outline" name="reorder-four-outline"></ion-icon>
         <a id="hide1" class="head hide hide2 hide4 vertical" href="#">Главная</a>
         <a id="hide1" class="head hide vertical hide4 some_link" href="#map">Наши сады</a>
-        <!--<a id="hide1"class="head hide vertical hide4" href="team.html">Команда</a> -->
+        <a id="hide1"class="head hide vertical hide4" href="team.html">Команда</a>
         <a id="hide1"class="head hide vertical hide4 forparents" href="#forparents">Для родителей</a>
       </div>
       <div class=" column  col-md-3 float-left">
         <a class="btn hide model-btn" href="#model1"> <button type="submit" id="top_btn" class="btn btn-primary">Заказать звонок</button></a>
-        <a id="phone" class=" phone head hide vertical center" href="tel:+73463511311">+7 (3463) 51-13-11</a>
+        <a id="phone" id="phone1" class="pphone phone head hide vertical center" href="tel:+73463517014">+7 (3463) 51-70-14</a>
         
         <!--<a  id="hide1"class="btn hide model-btn hide3"  href="#model1"><button type="submit" id="top_btn"  class="click btn btn-primary"  >Заказать звонок</button></a> -->
         <div id="opaco" class="hidden"></div>
@@ -144,7 +138,7 @@
   </div>
 </section>
 
-
+  <script src="script/ajaxable.min.js"></script>
 <section class="offer">
   <div class="container">
     <div class="row">
@@ -252,16 +246,17 @@
           <h3 class="whyme5 price">Пятиразовое питание</h3>
           <h3 class="whyme5 price">Онлайн видеонаблюдение</h3>
           <h3 class="whyme5 price">Прогулки на свежем воздухе</h3>
-          <h2 class="center price">270Р</h2>
+          <h2 class="center price">220Р</h2>
         </div>
         <div class="hdhide col-sm-12">
           <h3 id="top2" class="whyme4 price">Дополнительные услуги</h3>
           <h3 class="whyme5 price">Английский для малышей</h3>
           <h3 class="whyme5 price">Футбол</h3>
           <h3 class="whyme5 price">Хареография</h3>
-          <h3 class="whyme5 price">Группа выходного дня</h3>
-          <h3 class="whyme5 price">Хантэйское стойбище </h3>
-          <h2 class="center price">Бесплатно</h2>
+          <h3 class="whyme5 price">Группа выходного дня - 600Р</h3>
+          <h3 class="whyme5 price">Хантэйское стойбище</h3>
+          <h3 class="whyme5 price">Кислородный коктейль 10 дней - 500Р</h3>
+          
         </div>
       </div>
       <a class="head model-btn" href="#model1"><button id="btn4"  type="submit" class="model-btn click btn btn-primary">ЗАПИСАТЬСЯ</button></a>
@@ -334,10 +329,10 @@
           <div class="responsive owl-theme center">
             <div class="item"><img class="reply" src="img/reply1.png" alt=""></div>
             <div class="item"><img class="reply" src="img/reply2.png" alt=""></div>
-            <div class="item"><img class="reply" src="img/reply3.png" alt=""></div>
             <div class="item"><img class="reply" src="img/reply4.png" alt=""></div>
-            <div class="item"><img class="reply" src="img/reply5.png" alt=""></div>
             <div class="item"><img class="reply" src="img/reply6.png" alt=""></div>
+            <div class="item"><img class="reply" src="img/reply5.png" alt=""></div>
+            <div class="item"><img class="reply" src="img/reply3.png" alt=""></div>
 
           </div>
       </div>
@@ -437,7 +432,7 @@
             <div class="col-6 block">
               <h3 class="contact cb ">КОНТАКТЫ</h3>
               <img class="call" src="img/call.png" alt="">
-              <a class="contact p-2" href="tel:+73463511311">+7 (3463) 51-13-11</a> <br>
+              <a class="contact p-2" href="tel:+73463517014">+7 (3463) 51-70-14</a> <br>
               <img class="call" src="img/email.png" alt="">
               <a  class="contact" >7gnomov-sad@mail.ru</a><br>
               <img class="call" src="img/clock2.png" alt="">
@@ -450,14 +445,14 @@
               <a  class="" >- 11б Мартовская 6, 8<br></a>
                     <br><!--<img class="call" src="img/MAP.png" alt=""> -->
             </div>
-            <div class="col-6 block">
-              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6371301c0668531d14ae6617a850f3858c2317282f848eb7aeb6b89615232d31&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            <div id="footer__map" class="col-6 block footer__map">
+
             </div>
 
             <div class="col-md-12 hdhide">
               <h3 class="contact cb ">КОНТАКТЫ</h3>
               <img class="call" src="img/call.png" alt="">
-              <a class="contact p-2" href="tel:+73463511311">+7 (3463) 51-13-11</a> <br>
+              <a class="contact p-2" href="tel:+73463517014">+7 (3463) 51-70-14</a> <br>
               <img class="call" src="img/email.png" alt="">
               <a  class="contact" >7gnomov-sad@mail.ru</a><br>
               <img class="call" src="img/clock2.png" alt="">
@@ -470,8 +465,8 @@
               <a  class="" >- 11б Мартовская 6, 8<br></a>
                     <br><!--<img class="call" src="img/MAP.png" alt=""> -->
             </div>
-            <div class="col-md-12 hdhide">
-              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6371301c0668531d14ae6617a850f3858c2317282f848eb7aeb6b89615232d31&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            <div class="col-md-12 hdhide footer__map2">
+              
             </div>
           </div>
         </div>
@@ -497,7 +492,7 @@
   <div class="popup" id="model1">
     <div class="popup__overlay" >
       <div class="popup__body center">
-        <a class="popup__close" href="">
+        <a class="popup__close" >
           <img class="fa-times" src="img/cancel.png" alt="">
         </a>
         <h2 class="popup_form">ЗАПИШИСЬ НА БЕСПЛАТНУЮ ЭКСКУРСИЮ</h2>
@@ -510,7 +505,6 @@
                 <input class="inputs inputs3 center" name="phone" placeholder="Номер телефона" type="phone" required/ ><br>
                 <a id="done1" class="done-btn model-btn2" href="#model2"><button type="submit" id="btn4" class=" btn btn-primary " >ЗАПИСАТЬСЯ</button></a> 
               </form>
-
               <script type="text/javascript">
                 ajaxable('#myform');
               </script>
@@ -533,13 +527,10 @@
       </div>
     </div>
   </div>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="script/slick.min.js"></script>
-
   <script src="script.js"></script>
+
  </body>
 </html>
